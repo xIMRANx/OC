@@ -15,4 +15,13 @@ if __name__ == '__main__':
         if param == 'create':
             print('Введите настройки сервера:')
             server_name = input('Название сервера: ')
-            
+            print(" Введите тип сервера.")
+            print(' 0 = пустой сервер')
+            print(' 1 = предустановленный сервер')
+            server_type = int(input('Тип сервера: '))
+            if server_type == 1:
+                pass
+            elif server_type == 0:
+                pass
+            else:
+                print('Неправильный тип сервера')
